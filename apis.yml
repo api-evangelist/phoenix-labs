@@ -1,8 +1,24 @@
 aid: phoenix-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/phoenix-labs.png
 name: Phoenix Labs
-description: 'Phoenix Labs is a company surfaced as a portfolio company of sapphire-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: gaming. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Phoenix Labs is an independent video game developer with studios in Vancouver
+  and Montreal, building immersive online worlds and community-driven games. Its titles
+  include the free-to-play action RPG Dauntless and the cozy life-sim Fae Farm. The
+  studio operates player-facing support and account services for its games but does
+  not publish a public developer platform, API program, or SDKs. This profile was surfaced
+  as a portfolio company of Sapphire Ventures and enriched into the API Evangelist network;
+  its API surface is currently none.'
 url: https://raw.githubusercontent.com/api-evangelist/phoenix-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Gaming
+- Video Games
+- Game Development
+- Entertainment
+- Online Games
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +43,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/phoenix-labs-domain-security.yml
 - type: Website
   url: https://phxlabs.ca/
+- type: Careers
+  url: https://phxlabs.ca/careers/
+- type: Support
+  url: https://support.playdauntless.com
+- type: PrivacyPolicy
+  url: https://phxlabs.ca/privacy-policy
+- type: TermsOfService
+  url: https://phxlabs.ca/terms-of-service
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
